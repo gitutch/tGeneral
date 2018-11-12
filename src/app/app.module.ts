@@ -8,7 +8,7 @@ import { APP_ROUTES } from './app.routes';
 // MODULOS
 import { PagesModule } from './pages/pages.module';
 // TEMPORAL
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 // COMPONENTES
 import { AppComponent } from './app.component';
@@ -31,6 +31,7 @@ import { ServiceModule } from './services/service.module';
     PagesModule,
     APP_ROUTES,
     FormsModule,
+    ReactiveFormsModule,
     ServiceModule
   ],
   providers: [],
